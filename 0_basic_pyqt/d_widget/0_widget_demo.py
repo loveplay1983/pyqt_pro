@@ -19,7 +19,7 @@ class MainWindow(QMainWindow):
 
         self.setWindowTitle("My Awesome App")
         layout = QVBoxLayout()
-        # Tricky part which to add all the widgets you want in one swoop
+        # Tricky part which add all the widgets you want in one swoop
         widgets = [QCheckBox,
                    QComboBox,
                    QDateEdit,

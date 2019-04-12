@@ -25,6 +25,10 @@ they are often used in audio applications as representation of real-world analog
         # widget.minimum()
         widget.setSingleStep(2.5)
 
+        """
+        The signals are the same as for QSlider and retain the same names (e.g. .sliderMoved).
+        """
+
         widget.valueChanged.connect(self.val_change)
         widget.sliderMoved.connect(self.slider_move)
         widget.sliderPressed.connect(self.slider_press)
