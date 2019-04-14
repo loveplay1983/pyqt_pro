@@ -14,10 +14,35 @@ class MyDialog(QDialog):
 
         self.setWindowTitle('customized dialog')
 
-        dlg_btn = QDialogButtonBox.Ok | QDialogButtonBox.Cancel
+        dlg_btn = QDialogButtonBox.Open | QDialogButtonBox.Cancel
 
         self.button_box = QDialogButtonBox(dlg_btn)
         self.button_box.accepted.connect(self.accept)
+
+        """
+        Button types
+        QDialogButtonBox.Ok
+        QDialogButtonBox.Open
+        QDialogButtonBox.Save
+        QDialogButtonBox.Cancel
+        QDialogButtonBox.Close
+        QDialogButtonBox.Discard
+        QDialogButtonBox.Apply
+        QDialogButtonBox.Reset
+        QDialogButtonBox.RestoreDefaults
+        QDialogButtonBox.Help
+        QDialogButtonBox.SaveAll
+        QDialogButtonBox.Yes
+        QDialogButtonBox.YesToAll
+        QDialogButtonBox.No
+        QDialogButtonBox.NoToAll
+        QDialogButtonBox.Abort
+        QDialogButtonBox.Retry
+        QDialogButtonBox.Ignore
+        QDialogButtonBox.NoButton
+        
+        """
+
         self.button_box.rejected.connect(self.reject)
 
         self.layout = QVBoxLayout()
