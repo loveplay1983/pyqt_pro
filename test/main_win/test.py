@@ -38,6 +38,8 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+
+
 # from PyQt5.QtWidgets import QMainWindow
 
 class Ui_MainWindow(object):
@@ -71,4 +73,3 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))
         self.menuHello_world.setTitle(_translate("MainWindow", "Hello world"))
-

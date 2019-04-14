@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/basic_pyqt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0_basic_pyqt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1_qt_creator" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/1_qt_creator/a_qt_creator_basic" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (pyqt)" jdkType="Python SDK" />
