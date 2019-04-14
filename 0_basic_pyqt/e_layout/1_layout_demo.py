@@ -43,7 +43,21 @@ class MainWin(QMainWindow):
 
         self.setWindowTitle('Layout demo')
 
-        widget = Color('red')
+        # The following code stands for the process
+        # 1. Create a QVBoxLayout and put a customised widget with color red onto it.
+        # 2. Create an ordinary widget object and put the layout defined above onto it.
+        # 3. Put the widget central location and show it.
+        # SO the basic idea is
+        # QWidget > QLayout > other QWidgets
+        vbox = QVBoxLayout()
+        # vbox = QHBoxLayout()
+        vbox.addWidget(Color('red'))
+        vbox.addWidget(Color('green'))
+        vbox.addWidget(Color('blue'))
+        vbox.addWidget(Color('yellow'))
+
+        widget = QWidget()
+        widget.setLayout(vbox)
 
         self.setCentralWidget(widget)
 

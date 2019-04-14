@@ -43,8 +43,29 @@ class MainWin(QMainWindow):
 
         self.setWindowTitle('Layout demo')
 
-        widget = Color('red')
+        # Layout can sometimes be stacked together i.e. nested layouts
 
+        # Define layouts
+        layout_h = QHBoxLayout()
+        layout_v_1 = QVBoxLayout()
+        layout_v_2 = QVBoxLayout()
+
+        # Add widgets to different layouts
+        layout_v_1.addWidget(Color('red'))
+        layout_v_1.addWidget(Color('green'))
+        layout_v_1.addWidget(Color('blue'))
+
+        layout_v_2.addWidget(Color('purple'))
+        layout_v_2.addWidget(Color('black'))
+        layout_v_2.addWidget(Color('yellow'))
+
+        # Now put sub-layouts to the overall layout
+        layout_h.addLayout(layout_v_1)
+        layout_h.addLayout(layout_v_2)
+
+        # Define QWidget object which in this case will hold all the layouts
+        widget = QWidget()
+        widget.setLayout(layout_h)
         self.setCentralWidget(widget)
 
 
