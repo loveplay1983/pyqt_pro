@@ -37,8 +37,13 @@ class Example(QWidget):
     ########################
     # e is the event object#
     ########################
-    def mouseMoveEvent(self, e):
+    """
+    The e is the event object; it contains data about the event that was triggered; 
+    in our case, a mouse move event. With the x() and y() methods we determine the x and y 
+    coordinates of the mouse pointer. We build the string and set it to the label widget.
+    """
 
+    def mouseMoveEvent(self, e):
         x = e.x()
         y = e.y()
 
