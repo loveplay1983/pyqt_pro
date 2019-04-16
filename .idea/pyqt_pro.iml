@@ -6,7 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/basic_pyqt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0_basic_pyqt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1_qt_creator" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/1_qt_creator/a_qt_creator_basic" />
+      <sourceFolder url="file://$MODULE_DIR$/1_qt_creator/a_qt_creator_basic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_further_pyqt" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (pyqt)" jdkType="Python SDK" />

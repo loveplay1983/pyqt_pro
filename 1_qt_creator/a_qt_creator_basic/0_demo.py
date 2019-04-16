@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from main_win_demo_py import Ui_MainWindow
 
 from PyQt5.QtWidgets import *
