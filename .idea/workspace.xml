@@ -4,18 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/0_basic_pyqt/e_layout/5_stacked_layout.py" line="66" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237f6941-0257-4748-b47a-3a65d0228994" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_qt_creator/a_qt_creator_basic/1_demo_shell_and_logic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_further_pyqt/0_extending_signals/0_custom_signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_further_pyqt/0_extending_signals/1_event_and_signal_event_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_further_pyqt/0_extending_signals/1_event_and_signal_event_obj.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyqt_pro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyqt_pro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_qt_creator/a_qt_creator_basic/0_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_qt_creator/a_qt_creator_basic/0_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_qt_creator/a_qt_creator_basic/main_win_demo_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_qt_creator/a_qt_creator_basic/main_win_demo_py.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_qt_creator/a_qt_creator_basic/main_window_demo.ui" beforeDir="false" afterPath="$PROJECT_DIR$/1_qt_creator/a_qt_creator_basic/main_window_demo.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/.class_test.py.swp" beforeDir="false" />
-    </list>
+    <list default="true" id="237f6941-0257-4748-b47a-3a65d0228994" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2_further_pyqt/0_extending_signals/1_event_and_signal_event_obj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="21" />
+            <state relative-caret-position="348">
+              <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
               </folding>
@@ -174,11 +163,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="1026" />
-    <option name="y" value="32" />
-    <option name="width" value="894" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="242" />
+    <option name="y" value="62" />
+    <option name="width" value="1678" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -416,15 +405,15 @@
       <workItem from="1555195459140" duration="845000" />
       <workItem from="1555208640522" duration="12647000" />
       <workItem from="1555238187170" duration="8618000" />
-      <workItem from="1555390016831" duration="10401000" />
+      <workItem from="1555390016831" duration="10485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79957000" />
+    <option name="totallyTimeSpent" value="80041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1026" y="32" width="894" height="1048" extended-state="4" />
+    <frame x="242" y="62" width="1678" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" weight="0.52983296" />
@@ -867,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_further_pyqt/0_extending_signals/1_event_and_signal_event_obj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="21" />
+        <state relative-caret-position="348">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding>
             <element signature="e#25#35#0" expanded="true" />
           </folding>
